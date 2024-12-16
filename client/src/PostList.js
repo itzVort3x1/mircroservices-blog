@@ -9,7 +9,7 @@ const PostList = () => {
     const fetchPosts = async () => {
         let res;
         try {
-            res = await axios.get("http://localhost:4002/posts");
+            res = await axios.get("http://posts.com:30650/posts");
         } catch (err) {
             console.log(err.message);
         }
